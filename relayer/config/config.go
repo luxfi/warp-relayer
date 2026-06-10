@@ -83,7 +83,7 @@ type Destination struct {
 // schema — relayer pods MUST fetch via the KMS client at startup.
 type AccountKeyRef struct {
 	// Host is the KMS endpoint, e.g.
-	// "https://kms.dev." or "http://.liquidity.svc:9999".
+	// "https://kms.hanzo.ai" or "http://kms.tenant.svc:9999".
 	Host string `json:"host"`
 
 	// Path is the KMS path under which the relayer key lives, e.g.
